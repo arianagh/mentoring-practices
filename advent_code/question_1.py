@@ -21,7 +21,7 @@ print("Left List:", left_list)
 print("Right List:", right_list)
 
 
-def question_1():
+def part_1_solution():
     distances = []
     for i in range(len(left_list)):
         m1 = min(left_list)
@@ -33,4 +33,4 @@ def question_1():
     return sum(distances)
 
 
-print(question_1())
+print(part_1_solution())
